@@ -4,13 +4,14 @@ This repo will setup a simple redis counter with a custom docker bridge network.
 We will look at three examples.
 
 **docker examples**
-[1] Flask and Redis - [Ref1](https://medium.com/@schogini/two-docker-container-communication-using-python-and-redis-a-tiny-demonstration-b9d7cd35daab)
-[2] Flask and Redis with gunicorn [Ref2](https://github.com/alexryabtsev/docker-workshop)
+- [1] Flask and Redis - [Ref1](https://medium.com/@schogini/two-docker-container-communication-using-python-and-redis-a-tiny-demonstration-b9d7cd35daab)
+- [2] Flask and Redis with gunicorn [Ref2](https://github.com/alexryabtsev/docker-workshop)
 
 **docker-compose example**
-[3] Flask and Redis with gunicorn and nginx, use docker-compose [Ref3](https://github.com/OrangeTux/minimal-docker-python-setup)
+- [3] Flask and Redis with gunicorn and nginx, use docker-compose [Ref3](https://github.com/OrangeTux/minimal-docker-python-setup)
 
-[Optional] Replace gunicorn with uwsgi
+**Optional**
+- Replace gunicorn with uwsgi
 
 
 We will start with below structure.
